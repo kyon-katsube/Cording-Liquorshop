@@ -10,6 +10,8 @@
  <!--CSS--> <!--Googlefontは今回はなし-->
  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> 
  <link rel="stylesheet" href="scss/style.css"> 
+ <link rel="stylesheet" href="js/slick-1.8.1/slick/slick.css">
+ <link rel="stylesheet" href="js/slick-1.8.1/slick/slick-theme.css">
  </head>
 
 
@@ -27,13 +29,17 @@
          </nav>  
       </div>
       <div class="p-header__button">
-         <button class="p-header__button__contact c-button"type=“button” onclick="location.href='#'">資料請求</button>
+         <button class="p-header__button__contact c-button"type=“button” onclick="location.href='#'">お問い合わせ</button>
       </div>
    </header>
 
    <main>
-      <div class="c-mainvisual">
-         <img src="images/liquorshop_main.jpeg">
+      <div class="p-mainvisual">
+         <ul class="p-mainvisual__slider">
+            <li><img src="images/liquorshop_main.jpeg" alt="酒屋イメージ"></li>
+            <li><img src="images/liquorshop_main_sake.jpeg" alt="お酒イメージ"></li>
+            <li><img src="images/liquorshop_main_wine.jpeg" alt="ワインイメージ"></li>
+        </ul>
       </div>
 
       <section class="p-news">
@@ -114,7 +120,7 @@
                <dt>会社名</dt>
                   <dd>〇〇株式会社</dd>
                <dt>所在地</dt>
-                  <dd>〇〇県〇〇市西新町1-2453-12</dd>
+                  <dd>〇〇県〇〇市西新町1-2453</dd>
                <dt>代表者名</dt>
                   <dd>〇〇〇〇</dd>
                <dt>設立</dt>
@@ -137,14 +143,15 @@
       </div>
       <div class="p-footer__address">
          <p>copyright 2022 WED</p>
-         <p>お問い合わせ：090-4578-****</p>
+         <p>お問い合わせ：090-4578-0000</p>
       </div>
    </footer>
 
 
    <!--jQuery-->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>            
-   <script src="script.js"></script>          
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="js/slick-1.8.1/slick/slick.min.js"></script>
+   <script src="js/slick-config.js"></script>
 
 </body>
 </html>

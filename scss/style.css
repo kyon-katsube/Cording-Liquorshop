@@ -40,12 +40,6 @@ img {
   color: white;
 }
 
-.c-mainvisual {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-}
-
 .c-underline--bold {
   border-bottom: 3px solid #000;
   text-align: center;
@@ -115,6 +109,12 @@ img {
   .p-header__button {
     display: none;
   }
+}
+
+.p-mainvisual {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }
 
 .p-news {

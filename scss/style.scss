@@ -25,11 +25,11 @@ Text Domain: Corporate_code2
 /* Component--------------------- */
 @use "Object/Component/title";
 @use "Object/Component/button";
-@use "Object/Component/mainvisual";
 @use "Object/Component/underline";
 
 /* Project------------------------ */
 @use "Object/Project/header";
+@use "Object/Project/mainvisual";
 @use "Object/Project/news";
 @use "Object/Project/section-title";
 @use "Object/Project/about";
